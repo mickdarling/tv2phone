@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>start</title>
+<style type="text/css">
+.new_Content {
+	position: absolute;
+	left: 100px;
+	top: 900px;
+}
+.Select_Close {
+	position: absolute;
+	left: 100px;
+	top: 900px;
+	visibility: hidden;
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body>
+<div id="close" class="Select_Close"><img src="close.png" width="322" height="57" onclick="MM_showHideLayers('close','','hide','more','','show')"/></div>
+<div id="more" class="new_Content"><img src="more_content.png" width="322" height="57" onclick="MM_showHideLayers('close','','show','more','','hide')" /></div>
+</body>
+</html>
